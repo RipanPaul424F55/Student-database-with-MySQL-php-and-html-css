@@ -1,0 +1,75 @@
+<body bgcolor="#E8004B">
+	<font align="middle" color="yellow">
+	<fieldset>
+		<legend>Form</legend>
+	<form action="BitAdvanced.php" method="post">
+		<center><table border="3px">
+			<tr>
+				<td><font color="#51008C" size="6">First Name:</font></td>
+				<td><input type="text" name="fname" required></td>
+			</tr>
+			<tr>
+				<td><font color="#51008c" size="6">Last Name:</font></td>
+				<td><input type="text" name="lname" required></td>
+			</tr>
+			<tr>
+				<td><font color="#51008C" size="6">Email</font></td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td><font color="#51008c" size="6">Password</font></td>
+				<td><input type="password" name="pass"></td>
+			</tr>
+			<tr>
+				<td><font color="#51008c" size="6">Phone</font></td>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<td><font color="#51008c" size="6">Address</font></td>
+				<td><input type="text" name="address"></td>
+			</tr>
+		</table>
+		</center>
+		<br><br>
+		<h1><a><b>Your Gender</b></a></h1>
+		<br><br>
+		<input type="radio" name="radio" value="Female">Female
+		<input type="radio" name="radio" value="Male">Male
+		<input type="radio" name="radio" value="Other">Other
+		<br><br>
+		<h1><u><b>Your Nationality</b></u></h1>
+		<select name="nationality">
+			<ol type="1">
+			<option value="Default"><li>Defalut</li></option>
+			<option value="Indian"><li>Indian</li></option>
+			<option value="American"><li>American</li></option>
+			<option value="Canadian"><li>Canadian</li></option>
+			<option value="Japanese"><li>Japanese</li></option>
+			<option value="chinese"><li>Chinese</li></option>
+			<option value="Bangladeshi"><li>Bangladeshi</li></option>
+			<option value="indonasian"><li>Inodnasian</li></option>
+			<option value="brazilian"><li>Brazilian</li></option>
+			<option value="maldiv"><li>Maldiv</li></option>
+			</ol>
+		</select>
+		<br><br>
+		<b><u>Your favorite programming language</u></b>
+		<select name="code">
+			<option value="C">C</option>
+			<option value="C++">C++</option>
+			<option value="Python">Python</option>
+			<option value="java">Java</option>
+			<option value="Html">HTML</option>
+			<option value="PHP">PHP</option>
+			<option value="Prolog">Prolog</option>
+			<option value="other">Other</option>
+		</select>
+		<br><br>
+		Submission Date:<input type="Date" name="Date"><br><br>
+		Submission Time:<input type="time" name="Time"><br><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	</fieldset>
+	</font>
+</body>

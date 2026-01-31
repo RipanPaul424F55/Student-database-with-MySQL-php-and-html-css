@@ -1,0 +1,61 @@
+<body bgcolor="#e8611f">
+	<fieldset>
+		<legend>Enrollment Form</legend>
+		<font><center><font color="15feff" size="10">Tor e opekkhay chilam</font></center>
+			<marquee><b><i>Please fill up the necessary blocks</i><b></marquee>
+			<form action="student_db.php" method="post">
+				<br><br>
+				<table>
+					<tr>
+						<td><font size="4">First Name:</font></td>
+						<td><input type="text" name="fname" required></td>
+					</tr><tr>
+						<td><font size="4">Last Name:</font></td>
+						<td><input type="text" name="lname" required></td>
+					</tr><tr>
+						<td><font size="4">Email</font></td>
+						<td><input type="email" name="email" required></td>
+					</tr><tr>
+						<td><font size="4">Password</font></td>
+						<td><input type="password" name="pass" required></td>
+					</tr><tr>
+						<td><font size="4">Phone</font></td>
+						<td><input type="text" name="phone" required></td>
+					</tr><tr>
+						<td><font size="4">Nationality</font></td>
+						<td><input type="text" name="nat"></td>
+					</tr><tr>
+						<td><font size="4">DOB</font></td>
+						<td><input type="text" name="dob"></td>
+				</table><br><br>
+				<font size="6"><b>Your gender</b></font><br><br>
+				<input type="radio" name="radio" value="F"><b><font size="6" color="#ff00ee">Female</font></b><br>
+				<input type="radio" name="radio" value="M"><b><font size="6" color="#0016d6">Male</font></b><br>
+				<input type="radio" name="radio" value="O"><b><font size="6">Other</font></b><br><br>
+				<font size="6"><b>Your First Compulsary subject</b></font><br><br>
+				<select name="c1">
+					<option value="no">(select)</option>
+					<option value="Mathematics">Mathematics</option>
+					<option value="Physics">Physics</option>
+					<option value="Computer Science">Computer Science</option>
+					<option value="Chemistry">Chemistry</option>
+					<option value="Biology">Biology</option>
+				</select><br><br>
+				<font color="red"><small><strong>( Remember , Two compulsary subjects can't be same )</strong></small></font><br><br>
+				<font size="6"><b>Your Second Colpulsary subject</b></font><br><br>
+				<select name="c2">
+					<option value="no">(Select)</option>
+					<option value="Mathematics">Mathematics</option>
+					<option value="Computer Science">Computer Science</option>
+					<option value="Physics">Physics</option>
+					<option value="Chemistry">Chemistry</option>
+					<option value="Biology">Biology</option>
+				</select><br><br>
+				<a href="student_details.html"><input type="button" value="Student Details"></a><br><br>
+				<a href="student_update.html"><input type="button" value="Update Student Details"></a><br><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</form>
+		</font>
+	</fieldset>
+</body>
